@@ -1,0 +1,33 @@
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group__label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group__input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.2s ease;
+
+  /* Estilo de enfoque */
+  &:focus {
+    border-color: #0070f3;
+    outline: none;
+  }
+
+  /* Estilo de hover */
+  &:hover {
+    border-color: #cfcfcf;
+  }
+}
+
+.form-group__input--error {
+  border-color: red;
+}

@@ -1,0 +1,65 @@
+.title, .subtitle {
+  color: #000;
+  font-weight: 600;
+  font-family: "Roboto", serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.subtitle1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.error {
+  color: red;
+}
+
+.subtitle2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.subtitle3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.subtitle4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.subtitle5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.paragraph {
+  margin: 0 0 20px 0;
+  font-size: 1rem;
+  color: #555;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+}
+
+.label {
+  font-size: 1rem;
+  color: #555;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+
+
+
+
+
+
