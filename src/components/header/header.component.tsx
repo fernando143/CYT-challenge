@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "../../ui/button/button.component";
 import "./header.css";
-import { CreateTaskModal } from "../createTaskModal/createTaskModal.component";
+import { CreateEditTaskModal } from "../createTaskModal/createTaskModal.component";
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
@@ -19,7 +19,7 @@ export const Header = () => {
         <h1 className="header__title">TODO List</h1>
         <Button onClick={handleShowModal}>Add task</Button>
       </div>
-      <CreateTaskModal open={open} onClose={handleCloseModal} />
+      <CreateEditTaskModal open={open} onClose={handleCloseModal} />
     </header>
   );
 };
