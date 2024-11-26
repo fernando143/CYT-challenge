@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-import { ListItem } from "./listItem.component";
 import "./list.css";
 
 type ListProps = {
